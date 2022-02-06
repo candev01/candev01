@@ -3,7 +3,7 @@
 # Dockerfile is used give instructions to create an image in dockerhub when it is run on circleci
 # We can build and run a docker image by running the command 'docker build -t demo_app:latest .'
 # $DOCKERHUB_PASSWORD, $DOCKERHUB_USER, $IMAGE_NAME:$TAG, $HEROKU_APP_NAME would be set in circleci environment variables
-version: 2.1 
+version: 2.1
 orbs:
   heroku: circleci/heroku@1.0.1
 jobs: # provides a ciecleci machine 
